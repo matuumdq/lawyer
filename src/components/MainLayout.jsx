@@ -6,7 +6,7 @@ const MainLayout = () => {
 	const location = useLocation();
 
 	return (
-		<div className="bg-[url('https://res.cloudinary.com/dnqmez68n/image/upload/v1684869303/bg_k4ioga.png')] md:bg-cover min-h-screen">
+		<div className="bg-[url('https://res.cloudinary.com/dnqmez68n/image/upload/v1684869303/bg_k4ioga.png')] md:bg-contain min-h-screen">
 			<Navbar />
 			<TransitionGroup>
 				<CSSTransition
