@@ -1,6 +1,6 @@
 const Services = () => {
 	return (
-		<div>
+		<div id="services">
 			<div className="flex flex-col lg:flex-row w-full gap-4 justify-center items-center px-4 pb-10 mt-10">
 				<div className="w-full"></div>
 				<div className="w-full flex flex-col justify-center items-center rounded-md py-10 md:py-16 px-5 border bg-backblue-200 shadow-lg">
@@ -14,7 +14,7 @@ const Services = () => {
 			</div>
 			<div className="pb-10">
 				<div className="flex justify-center items-center">
-					<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-lg text-center md:w-1/2 mx-auto">
+					<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-[0px_0px_20px_5px_#00000024] text-center md:w-1/2 mx-4 w-full">
 						Nuestros Servicios
 					</h3>
 				</div>

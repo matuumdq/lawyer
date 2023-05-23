@@ -1,7 +1,7 @@
 const History = () => {
 	return (
 		<div className="py-10 mx-5">
-			<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-lg text-center md:w-1/2 mx-auto">
+			<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-[0px_0px_20px_5px_#00000024] text-center md:w-1/2 mx-auto">
 				Conocenos
 			</h3>
 			<div className="max-w-screen-lg flex flex-col md:flex-row md:gap-5 mx-auto justify-center items-center">
@@ -12,7 +12,7 @@ const History = () => {
 						className="grayscale rounded-md"
 					/>
 				</div>
-				<div className=" text-white bg-backblue-100 p-6 mx-2 rounded-md transform -translate-y-28 md:transform-none shadow-md">
+				<div className=" text-white bg-backblue-200 p-6 mx-2 rounded-md transform -translate-y-28 md:transform-none shadow-[0px_0px_20px_10px_#00000024]">
 					<p>
 						Desde su establecimiento en 1995, nuestro estudio de
 						abogados se ha consolidado como una reconocida firma

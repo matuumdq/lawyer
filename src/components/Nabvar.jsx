@@ -6,16 +6,22 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	return (
-		<div className="h-20 mx-auto flex justify-between items-center p-4">
+		<div className="h-20 mx-auto flex justify-between items-center p-4 sticky top-0 z-20 bg-backblue-200">
 			{/* Left */}
 
 			<div className="hidden md:flex items-center font-medium gap-10 p-1">
-				<Link
-					to="/nosotros"
+				<a
+					href="#services"
 					className="border-b-2 border-transparent text-resalted-bg uppercase font-thin hover:scale-105 hover:border hover:border-y-resalted-100 p-1 ease-in duration-300"
 				>
-					Nosotros
-				</Link>
+					Servicios
+				</a>
+				<a
+					href="#nosotros"
+					className="border-b-2 border-transparent text-resalted-bg uppercase font-thin hover:scale-105 hover:border hover:border-y-resalted-100 p-1 ease-in duration-300"
+				>
+					nosotros
+				</a>
 				<Link
 					to="/tienda"
 					className="border-b-2 border-transparent text-resalted-bg uppercase font-thin hover:scale-105 hover:border hover:border-y-resalted-100 p-1 ease-in duration-300"
@@ -78,13 +84,20 @@ const Navbar = () => {
 				</div>
 				<nav className="my-44">
 					<ul className="flex flex-col px-4 py-8 gap-10 justify-center items-center text-xl text-gray-800">
-						<Link
-							to="/nosotros"
+						<a
+							href="#services"
+							onClick={() => setNav(false)}
+							className="hover:scale-105 hover:border-y-2 border-resalted-100 py-2 ease-in duration-300 flex text-resalted-bg uppercase font-semibold text-2xl w-56"
+						>
+							Servicios
+						</a>
+						<a
+							href="#nosotros"
 							onClick={() => setNav(false)}
 							className="hover:scale-105 hover:border-y-2 border-resalted-100 py-2 ease-in duration-300 flex text-resalted-bg uppercase font-semibold text-2xl w-56"
 						>
 							Nosotros
-						</Link>
+						</a>
 						<Link
 							to="#casos"
 							onClick={() => setNav(false)}

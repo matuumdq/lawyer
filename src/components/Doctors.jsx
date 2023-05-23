@@ -20,9 +20,9 @@ const Doctors = () => {
 		},
 	];
 	return (
-		<div className="py-24">
+		<div id="nosotros" className="py-24">
 			<div className="flex justify-center items-center">
-				<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-lg text-center md:w-1/2 mx-auto">
+				<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-[0px_0px_20px_5px_#00000024] text-center md:w-1/2 mx-4 w-full">
 					Conoce tus futuros abogados
 				</h3>
 			</div>
@@ -38,7 +38,7 @@ const Doctors = () => {
 								alt={law.name}
 								className="grayscale rounded-md relative z-0 "
 							/>
-							<div className="absolute -bottom-8 w-2/3 bg-resalted-100 shadow-md p-4 rounded-lg z-10 flex flex-col justify-center items-center text-white">
+							<div className="absolute -bottom-8 w-2/3 bg-resalted-100 shadow-[0px_0px_20px_5px_#00000024] p-4 rounded-lg z-10 flex flex-col justify-center items-center text-white">
 								<h4 className="whitespace-nowrap overflow-hidden ">
 									{law.name}
 								</h4>
