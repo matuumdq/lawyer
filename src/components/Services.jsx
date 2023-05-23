@@ -14,7 +14,7 @@ const Services = () => {
 			</div>
 			<div className="pb-10">
 				<div className="flex justify-center items-center">
-					<h3 className="font-semibold uppercase text-resalted-50 px-16 py-4 rounded-md text-5xl my-12 bg-backblue-200 shadow-lg text-center">
+					<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-lg text-center md:w-1/2 mx-auto">
 						Nuestros Servicios
 					</h3>
 				</div>
