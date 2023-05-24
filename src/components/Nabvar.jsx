@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	return (
-		<div className="h-20 mx-auto flex justify-between items-center p-4 sticky top-0 z-20 bg-backblue-200">
+		<div className="h-20 mx-auto flex justify-between items-center p-4 sticky top-0 z-20 bg-backblue-200  shadow-[0px_0px_20px_5px_#00000024]">
 			{/* Left */}
 
 			<div className="hidden md:flex items-center font-medium gap-10 p-1">
