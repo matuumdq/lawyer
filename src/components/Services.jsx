@@ -20,7 +20,7 @@ const Services = () => {
 				</div>
 
 				<div className="flex flex-col items-center md:flex-row gap-5 w-full md:justify-around max-w-screen-lg mx-auto mt-6">
-					<div className="relative w-80 md:w-80 h-52 md:h-48 bg-resalted-bg z-10 rounded-lg shadow-md shadow-backblue-bg">
+					<div className="relative w-80 md:w-80 h-52 md:h-48 bg-resalted-100 z-10 rounded-lg shadow-md shadow-backblue-bg">
 						<div className="flex flex-col absolute z-20">
 							<p className="text-white p-4 font-bold">
 								Derecho Penal:
@@ -31,9 +31,9 @@ const Services = () => {
 								entre otros.
 							</p>
 						</div>
-						<div className="absolute bottom-1/2 md:bottom-0 left-0 md:left-10 transform translate-y-1/2 md:translate-y-0 md:-translate-x-1/2 w-8 h-8 bg-resalted-bg rotate-45 "></div>
+						<div className="absolute bottom-1/2 md:bottom-0 left-0 md:left-10 transform translate-y-1/2 md:translate-y-0 md:-translate-x-1/2 w-8 h-8 bg-resalted-100 rotate-45 "></div>
 					</div>
-					<div className="relative w-80 md:w-80 h-52 md:h-48 bg-resalted-bg z-10 rounded-lg shadow-lg">
+					<div className="relative w-80 md:w-80 h-52 md:h-48 bg-resalted-100 z-10 rounded-lg shadow-lg">
 						<div className="flex flex-col absolute z-20">
 							<p className="text-white p-4 font-bold">
 								Derecho Civil:
@@ -45,9 +45,9 @@ const Services = () => {
 								otros.
 							</p>
 						</div>
-						<div className="absolute bottom-1/2 md:bottom-0 right-0 md:right-10 transform translate-y-1/2 md:translate-y-0 md:-translate-x-1/2 w-8 h-8 bg-resalted-bg rotate-45 "></div>
+						<div className="absolute bottom-1/2 md:bottom-0 right-0 md:right-10 transform translate-y-1/2 md:translate-y-0 md:-translate-x-1/2 w-8 h-8 bg-resalted-100 rotate-45 "></div>
 					</div>
-					<div className="relative w-80 md:w-80 h-52 md:h-48 bg-resalted-bg z-10 rounded-lg shadow-lg">
+					<div className="relative w-80 md:w-80 h-52 md:h-48 bg-resalted-100 z-10 rounded-lg shadow-lg">
 						<div className="flex flex-col absolute z-20">
 							<p className="text-white p-4 font-bold">
 								Derecho Laboral:
@@ -58,7 +58,7 @@ const Services = () => {
 								problemas relacionados con el empleo.
 							</p>
 						</div>
-						<div className="absolute bottom-1/2 md:bottom-0 left-0 md:left-10 transform translate-y-1/2 md:translate-y-0 md:-translate-x-1/2 w-8 h-8 bg-resalted-bg rotate-45 "></div>
+						<div className="absolute bottom-1/2 md:bottom-0 left-0 md:left-10 transform translate-y-1/2 md:translate-y-0 md:-translate-x-1/2 w-8 h-8 bg-resalted-100 rotate-45 "></div>
 					</div>
 				</div>
 			</div>

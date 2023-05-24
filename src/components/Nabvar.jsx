@@ -28,12 +28,12 @@ const Navbar = () => {
 				>
 					Casos
 				</Link>
-				<Link
-					to="/contactanos"
+				<a
+					href="#contacto"
 					className="border-b-2 border-transparent text-resalted-bg uppercase font-thin hover:scale-105 hover:border hover:border-y-resalted-100 p-1 ease-in duration-300"
 				>
-					Contactanos
-				</Link>
+					contactanos
+				</a>
 			</div>
 			<div
 				className="cursor-pointer md:hidden ml-8"
@@ -105,14 +105,14 @@ const Navbar = () => {
 						>
 							Casos
 						</Link>
-						<Link
-							to="/contactanos"
+						<a
+							href="#contacto"
 							onClick={() => setNav(false)}
 							className="hover:scale-105 hover:border-y-2 border-resalted-100 py-2 ease-in duration-300 flex text-resalted-bg uppercase font-semibold text-2xl w-56"
 						>
 							<GrMail size={25} className="mr-4" />
 							Contactanos
-						</Link>
+						</a>
 					</ul>
 				</nav>
 			</div>

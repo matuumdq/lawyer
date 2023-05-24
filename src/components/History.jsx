@@ -1,6 +1,6 @@
 const History = () => {
 	return (
-		<div className="py-10 mx-5">
+		<div className=" mx-5">
 			<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-[0px_0px_20px_5px_#00000024] text-center md:w-1/2 mx-auto">
 				Conocenos
 			</h3>
@@ -12,8 +12,8 @@ const History = () => {
 						className="grayscale rounded-md"
 					/>
 				</div>
-				<div className=" text-white bg-backblue-200 p-6 mx-2 rounded-md transform -translate-y-28 md:transform-none shadow-[0px_0px_20px_10px_#00000024]">
-					<p>
+				<div className=" text-white bg-backblue-200 p-6 mx-2 rounded-md transform -translate-y-28 md:transform-none shadow-[0px_0px_20px_10px_#00000024] flex flex-col gap-5 px-10">
+					<p className="indent-9">
 						Desde su establecimiento en 1995, nuestro estudio de
 						abogados se ha consolidado como una reconocida firma
 						legal comprometida con la excelencia y la defensa de los
@@ -22,7 +22,7 @@ const History = () => {
 						experiencia, la dedicación y los resultados exitosos que
 						hemos obtenido en diversas áreas del derecho.
 					</p>
-					<p>
+					<p className="indent-9">
 						Desde nuestros inicios, nos hemos esforzado por brindar
 						un servicio legal integral y personalizado, adaptado a
 						las necesidades y circunstancias únicas de cada cliente.
@@ -32,7 +32,7 @@ const History = () => {
 						ya sea en casos complejos de derecho penal, disputas
 						civiles o asuntos laborales.
 					</p>
-					<p>
+					<p className="indent-9">
 						A lo largo de los años, hemos construido relaciones
 						sólidas con nuestros clientes, basadas en la confianza,
 						la confidencialidad y la comunicación abierta. Nos
