@@ -22,12 +22,12 @@ const Navbar = () => {
 				>
 					nosotros
 				</a>
-				<Link
-					to="/tienda"
+				<a
+					href="#clientes"
 					className="border-b-2 border-transparent text-resalted-bg uppercase font-thin hover:scale-105 hover:border hover:border-y-resalted-100 p-1 ease-in duration-300"
 				>
 					Casos
-				</Link>
+				</a>
 				<a
 					href="#contacto"
 					className="border-b-2 border-transparent text-resalted-bg uppercase font-thin hover:scale-105 hover:border hover:border-y-resalted-100 p-1 ease-in duration-300"
@@ -98,13 +98,13 @@ const Navbar = () => {
 						>
 							Nosotros
 						</a>
-						<Link
-							to="#casos"
+						<a
+							href="#clientes"
 							onClick={() => setNav(false)}
 							className="hover:scale-105 hover:border-y-2 border-resalted-100 py-2 ease-in duration-300 flex text-resalted-bg uppercase font-semibold text-2xl w-56"
 						>
 							Casos
-						</Link>
+						</a>
 						<a
 							href="#contacto"
 							onClick={() => setNav(false)}

@@ -1,5 +1,6 @@
 import Contact from "./Contact";
 import Doctors from "./Doctors";
+import Footer from "./Footer";
 import Hero from "./Hero";
 import History from "./History";
 import Services from "./Services";
@@ -14,6 +15,7 @@ const Home = () => {
 			<History />
 			<Testimonials />
 			<Contact />
+			<Footer />
 		</div>
 	);
 };

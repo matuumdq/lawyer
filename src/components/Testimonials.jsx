@@ -6,7 +6,7 @@ const Testimonials = () => {
 			work: "Portero",
 			comment:
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem dolor et? Odio, debitis dolore!",
-			img: "https://source.unsplash.com/50x50/?portrait?1",
+			img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1682018542/fotos%20banner/banner3_hplrif.jpg",
 		},
 		{
 			id: 1,
@@ -14,11 +14,11 @@ const Testimonials = () => {
 			work: "Capataz de obra",
 			comment:
 				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iste enim harum neque provident incidunt natus quas placeat eveniet sed?",
-			img: "https://source.unsplash.com/50x50/?portrait?1",
+			img: "https://res.cloudinary.com/dnqmez68n/image/upload/v1684167391/doc_myich9.jpg",
 		},
 	];
 	return (
-		<section className="mx-5 -mt-12 mb-16 md:my-16">
+		<section id="clientes" className="mx-5 -mt-12 mb-16 md:my-16">
 			<h3 className="font-semibold uppercase text-resalted-50 md:px-16 py-4 rounded-md text-3xl md:text-5xl my-12 bg-backblue-200 shadow-[0px_0px_20px_5px_#00000024] text-center md:w-1/2 mx-auto">
 				Nuestros Clientes
 			</h3>

@@ -95,7 +95,7 @@ const Form = () => {
 					</div>
 					<div className="justify-self-center items-center md:col-span-2 mb-4 md:mb-0">
 						<button
-							className="hover:scale-105 hover:border-y-2 border-resalted-100 py-2 ease-in duration-300 flex text-resalted-bg uppercase font-semibold text-2xl w-auto"
+							className="hover:scale-105 border-y-2 border-transparent hover:border-y-2 hover:border-resalted-100 py-2 ease-in duration-300 flex text-resalted-bg uppercase font-semibold text-2xl w-auto"
 							type="submit"
 						>
 							Enviar Consulta
